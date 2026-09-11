@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "KidsStore — Stücke für eine echte Kindheit",
+    "description": "Eine kuratierte Auswahl an Kinderkleidung, Spielzeug und Accessoires. Echte Materialien, langlebig verarbeitet, ohne aufgesetzte Niedlichkeit."
+  },
+  "nav": {
+    "categories": "Sortiment",
+    "about": "Über uns",
+    "trust": "Garantien",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "kicker": "KidsStore",
+    "headline": "Stücke für eine echte Kindheit — gemacht, um sie zu überdauern",
+    "sub": "Wir führen nur, was die zwanzigste Wäsche, das nächste Kind in der Familie und noch eine Saison draußen übersteht."
+  },
+  "categories": {
+    "heading": "Drei Wege ins Sortiment, keine hundert Filter",
+    "clothing": {
+      "name": "Kleidung",
+      "desc": "Baumwolle und Leinen, die auch nach zwanzig Wäschen ihre Form behalten."
+    },
+    "toys": {
+      "name": "Spielzeug",
+      "desc": "Holz und Stoff statt Plastik, das nach einer Woche bricht."
+    },
+    "accessories": {
+      "name": "Accessoires",
+      "desc": "Die kleinen Dinge, die Kinder täglich tragen — und nicht binnen eines Monats verlieren."
+    }
+  },
+  "about": {
+    "heading": "Warum wir kuratieren, statt alles zu führen",
+    "body": "KidsStore entstand aus einer einfachen Beobachtung: Regale voller Dinge für eine einzige Saison. Wir arbeiten mit wenigen Herstellern, die uns Stoffzusammensetzung und Lieferkette offenlegen, bevor etwas ins Sortiment kommt. Das ist langsamer als Masseneinkauf — genau deshalb bleibt die Auswahl klein."
+  },
+  "trust": {
+    "heading": "Was wir garantieren, nicht nur versprechen",
+    "materials": {
+      "title": "Materialien",
+      "desc": "Naturstoffe und Holz mit nachvollziehbarer Herkunft; die Zusammensetzung steht immer auf der Produktseite."
+    },
+    "safety": {
+      "title": "Sicherheit",
+      "desc": "Jedes Spielzeug ist nach EN71 zertifiziert, bevor es ins Sortiment aufgenommen wird."
+    },
+    "returns": {
+      "title": "Rückgabe",
+      "desc": "30 Tage Rückgaberecht ohne Angabe von Gründen — ein Stück soll dem Kind passen, nicht im Schrank hängen."
+    }
+  },
+  "contact": {
+    "heading": "Noch unsicher bei Größe oder Material?",
+    "sub": "Hinterlassen Sie Ihre Nummer — wir rufen noch am selben Werktag zurück, kein Automat.",
+    "name": "Name",
+    "phone": "Telefon",
+    "message": "Nachricht (optional)",
+    "submit": "Rückruf anfordern",
+    "sending": "Wird gesendet…",
+    "success": "Danke — wir melden uns in Kürze.",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt."
+  },
+  "footer": {
+    "tagline": "Kuratierte Kinderkleidung, Spielzeug und Accessoires.",
+    "social": "Folgen Sie uns",
+    "copyright": "Alle Rechte vorbehalten."
+  }
+}

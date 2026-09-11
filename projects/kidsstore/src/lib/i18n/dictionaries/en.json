@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "KidsStore — pieces for real childhood",
+    "description": "A curated selection of children's clothing, toys and accessories. Real materials, built to last, without the exaggerated cuteness."
+  },
+  "nav": {
+    "categories": "Shop",
+    "about": "About",
+    "trust": "Guarantees",
+    "contact": "Get in touch"
+  },
+  "hero": {
+    "kicker": "KidsStore",
+    "headline": "Pieces built for real childhood — and for staying around after it",
+    "sub": "We only carry what survives the twentieth wash, the next kid in the family, and one more season outdoors."
+  },
+  "categories": {
+    "heading": "Three ways in, not a hundred filters",
+    "clothing": {
+      "name": "Clothing",
+      "desc": "Cotton and linen that hold their shape long after wash twenty."
+    },
+    "toys": {
+      "name": "Toys",
+      "desc": "Wood and fabric instead of plastic that snaps within a week."
+    },
+    "accessories": {
+      "name": "Accessories",
+      "desc": "The small things kids wear daily — and don't lose within a month."
+    }
+  },
+  "about": {
+    "heading": "Why we curate instead of stocking everything",
+    "body": "KidsStore started from a simple frustration: shop shelves full of things built for one season. We work with a small number of makers who show us fabric composition and supply history before anything reaches the catalogue. It's slower than bulk buying — and that's exactly why the range stays small."
+  },
+  "trust": {
+    "heading": "What we guarantee, not just promise",
+    "materials": {
+      "title": "Materials",
+      "desc": "Natural fabrics and wood with traceable origin; composition is always listed on the product page."
+    },
+    "safety": {
+      "title": "Safety",
+      "desc": "Every toy is certified to EN71 before it ever reaches the catalogue."
+    },
+    "returns": {
+      "title": "Returns",
+      "desc": "30 days to return, no questions asked — a piece should suit the kid, not sit in a closet."
+    }
+  },
+  "contact": {
+    "heading": "Still unsure about a size or a material?",
+    "sub": "Leave your number and we'll call back within the working day — no autoresponder.",
+    "name": "Name",
+    "phone": "Phone",
+    "message": "Message (optional)",
+    "submit": "Request a callback",
+    "sending": "Sending…",
+    "success": "Thanks — we'll be in touch shortly.",
+    "error": "Something went wrong. Please try again or write to us directly."
+  },
+  "footer": {
+    "tagline": "Curated children's clothing, toys and accessories.",
+    "social": "Follow us",
+    "copyright": "All rights reserved."
+  }
+}

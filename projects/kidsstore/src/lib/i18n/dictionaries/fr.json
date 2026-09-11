@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "KidsStore — des pièces pour une vraie enfance",
+    "description": "Une sélection curatée de vêtements, jouets et accessoires pour enfants. Des matières réelles, pensées pour durer, sans mièvrerie excessive."
+  },
+  "nav": {
+    "categories": "Boutique",
+    "about": "À propos",
+    "trust": "Garanties",
+    "contact": "Nous contacter"
+  },
+  "hero": {
+    "kicker": "KidsStore",
+    "headline": "Des pièces pensées pour une vraie enfance — et pour lui survivre",
+    "sub": "Nous ne gardons que ce qui résiste au vingtième lavage, au prochain enfant de la famille, et à une saison de plus dehors."
+  },
+  "categories": {
+    "heading": "Trois entrées dans le catalogue, pas cent filtres",
+    "clothing": {
+      "name": "Vêtements",
+      "desc": "Coton et lin qui gardent leur forme bien après le vingtième lavage."
+    },
+    "toys": {
+      "name": "Jouets",
+      "desc": "Bois et tissu plutôt qu'un plastique qui casse en une semaine."
+    },
+    "accessories": {
+      "name": "Accessoires",
+      "desc": "Les petites choses que les enfants portent chaque jour — et ne perdent pas en un mois."
+    }
+  },
+  "about": {
+    "heading": "Pourquoi nous sélectionnons, plutôt que de tout stocker",
+    "body": "KidsStore est né d'un constat simple : des rayons remplis d'articles pensés pour une seule saison. Nous travaillons avec un petit nombre d'ateliers qui nous montrent la composition des tissus et l'origine de leur production avant qu'un article n'entre au catalogue. C'est plus lent qu'un achat de masse — et c'est justement pourquoi notre sélection reste restreinte."
+  },
+  "trust": {
+    "heading": "Ce que nous garantissons, pas seulement ce que nous promettons",
+    "materials": {
+      "title": "Matières",
+      "desc": "Tissus naturels et bois d'origine traçable ; la composition est toujours indiquée sur la fiche produit."
+    },
+    "safety": {
+      "title": "Sécurité",
+      "desc": "Chaque jouet est certifié EN71 avant d'entrer au catalogue."
+    },
+    "returns": {
+      "title": "Retours",
+      "desc": "30 jours pour retourner un article sans justification — une pièce doit convenir à l'enfant, pas rester dans une armoire."
+    }
+  },
+  "contact": {
+    "heading": "Une question sur une taille ou une matière ?",
+    "sub": "Laissez votre numéro, nous vous rappelons dans la journée ouvrée — pas de répondeur automatique.",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "message": "Message (facultatif)",
+    "submit": "Demander un rappel",
+    "sending": "Envoi en cours…",
+    "success": "Merci — nous vous recontactons très vite.",
+    "error": "Une erreur est survenue. Merci de réessayer ou de nous écrire directement."
+  },
+  "footer": {
+    "tagline": "Vêtements, jouets et accessoires pour enfants, sélectionnés avec soin.",
+    "social": "Suivez-nous",
+    "copyright": "Tous droits réservés."
+  }
+}

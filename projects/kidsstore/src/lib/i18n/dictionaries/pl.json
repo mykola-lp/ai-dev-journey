@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "KidsStore — rzeczy na prawdziwe dzieciństwo",
+    "description": "Starannie wyselekcjonowana odzież, zabawki i dodatki dla dzieci. Prawdziwe materiały, pomyślane na lata, bez przesadnej słodkości."
+  },
+  "nav": {
+    "categories": "Sklep",
+    "about": "O nas",
+    "trust": "Gwarancje",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "kicker": "KidsStore",
+    "headline": "Rzeczy pomyślane na prawdziwe dzieciństwo — i na to, by je przetrwać",
+    "sub": "Wybieramy tylko to, co wytrzyma dwudzieste pranie, kolejne dziecko w rodzinie i jeszcze jeden sezon na dworze."
+  },
+  "categories": {
+    "heading": "Trzy wejścia do katalogu, nie sto filtrów",
+    "clothing": {
+      "name": "Odzież",
+      "desc": "Bawełna i len, które nie tracą kształtu po dwudziestym praniu."
+    },
+    "toys": {
+      "name": "Zabawki",
+      "desc": "Drewno i tkanina zamiast plastiku, który pęka po tygodniu."
+    },
+    "accessories": {
+      "name": "Dodatki",
+      "desc": "Drobiazgi, które dzieci noszą codziennie — i nie gubią w miesiąc."
+    }
+  },
+  "about": {
+    "heading": "Dlaczego selekcjonujemy, zamiast mieć wszystko",
+    "body": "KidsStore powstał z prostej irytacji: półki pełne rzeczy na jeden sezon. Współpracujemy z niewielką liczbą producentów, którzy pokazują nam skład tkanin i historię dostaw, zanim produkt trafi do katalogu. To wolniejsze niż masowe zakupy — i właśnie dlatego oferta pozostaje niewielka."
+  },
+  "trust": {
+    "heading": "Co gwarantujemy, a nie tylko obiecujemy",
+    "materials": {
+      "title": "Materiały",
+      "desc": "Naturalne tkaniny i drewno o sprawdzonym pochodzeniu; skład zawsze widnieje na karcie produktu."
+    },
+    "safety": {
+      "title": "Bezpieczeństwo",
+      "desc": "Każda zabawka posiada certyfikat EN71, zanim trafi do katalogu."
+    },
+    "returns": {
+      "title": "Zwroty",
+      "desc": "30 dni na zwrot bez podania przyczyny — rzecz ma pasować dziecku, a nie leżeć w szafie."
+    }
+  },
+  "contact": {
+    "heading": "Masz wątpliwości co do rozmiaru lub materiału?",
+    "sub": "Zostaw numer — oddzwonimy jeszcze tego samego dnia roboczego, bez automatu.",
+    "name": "Imię",
+    "phone": "Telefon",
+    "message": "Wiadomość (opcjonalnie)",
+    "submit": "Poproś o telefon",
+    "sending": "Wysyłanie…",
+    "success": "Dziękujemy — odezwiemy się wkrótce.",
+    "error": "Coś poszło nie tak. Spróbuj ponownie lub napisz do nas bezpośrednio."
+  },
+  "footer": {
+    "tagline": "Starannie wyselekcjonowana odzież, zabawki i dodatki dla dzieci.",
+    "social": "Śledź nas",
+    "copyright": "Wszelkie prawa zastrzeżone."
+  }
+}
