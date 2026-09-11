@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>RAW — корм для тварин</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #11110f;
+      --surface: #191916;
+      --text: #f2eee6;
+      --muted: #98958c;
+      --accent: #ff6a00;
+      --accent-dark: #d84f00;
+      --line: rgba(242, 238, 230, 0.14);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "DM Mono", monospace;
+    }
+
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      padding: 32px 24px;
+      isolation: isolate;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -3;
+      background:
+        radial-gradient(
+          circle at 78% 48%,
+          rgba(255, 106, 0, 0.16),
+          transparent 28%
+        ),
+        linear-gradient(
+          120deg,
+          #11110f 0%,
+          #151510 52%,
+          #1b1712 100%
+        );
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      opacity: 0.18;
+      background-image:
+        linear-gradient(var(--line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--line) 1px, transparent 1px);
+      background-size: 56px 56px;
+      mask-image: linear-gradient(to right, black, transparent 75%);
+    }
+
+    .hero__container {
+      width: min(1280px, 100%);
+      margin: 0 auto;
+    }
+
+    .hero__top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .hero__brand {
+      margin: 0;
+      font-family: "Archivo Black", sans-serif;
+      font-size: 18px;
+      letter-spacing: -0.04em;
+      text-transform: uppercase;
+    }
+
+    .hero__category {
+      margin: 0;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+    }
+
+    .hero__main {
+      display: grid;
+      gap: 48px;
+      padding-top: 64px;
+    }
+
+    .hero__content {
+      max-width: 760px;
+    }
+
+    .hero__label {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 24px;
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+    }
+
+    .hero__label::before {
+      content: "";
+      width: 24px;
+      height: 2px;
+      background: var(--accent);
+    }
+
+    .hero__title {
+      margin: 0;
+      font-family: "Archivo Black", sans-serif;
+      font-size: clamp(64px, 15vw, 180px);
+      line-height: 0.82;
+      letter-spacing: -0.075em;
+      text-transform: uppercase;
+    }
+
+    .hero__title span {
+      color: var(--accent);
+    }
+
+    .hero__description {
+      max-width: 520px;
+      margin: 36px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .hero__actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 36px;
+    }
+
+    .hero__button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 52px;
+      padding: 0 22px;
+      border: 1px solid var(--accent);
+      background: var(--accent);
+      color: #11110f;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 500;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition:
+        background-color 180ms ease,
+        color 180ms ease,
+        transform 180ms ease;
+    }
+
+    .hero__button:hover {
+      background: transparent;
+      color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .hero__button--secondary {
+      border-color: var(--line);
+      background: transparent;
+      color: var(--text);
+    }
+
+    .hero__button--secondary:hover {
+      border-color: var(--accent);
+      background: rgba(255, 106, 0, 0.08);
+      color: var(--text);
+    }
+
+    .hero__visual {
+      position: relative;
+      min-height: 360px;
+      display: grid;
+      place-items: center;
+    }
+
+    .hero__orb {
+      position: relative;
+      width: min(72vw, 410px);
+      aspect-ratio: 1;
+      border: 1px solid rgba(255, 106, 0, 0.45);
+      border-radius: 50%;
+      background:
+        radial-gradient(
+          circle at 40% 35%,
+          rgba(255, 106, 0, 0.22),
+          transparent 24%
+        ),
+        radial-gradient(
+          circle,
+          rgba(255, 106, 0, 0.07),
+          transparent 65%
+        );
+      box-shadow:
+        0 0 0 22px rgba(255, 106, 0, 0.025),
+        0 0 0 70px rgba(255, 106, 0, 0.015);
+    }
+
+    .hero__orb::before,
+    .hero__orb::after {
+      content: "";
+      position: absolute;
+      border: 1px solid rgba(242, 238, 230, 0.16);
+      border-radius: 50%;
+    }
+
+    .hero__orb::before {
+      inset: 18%;
+    }
+
+    .hero__orb::after {
+      inset: 34%;
+    }
+
+    .hero__paw {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 96px;
+      height: 96px;
+      transform: translate(-50%, -50%) rotate(-12deg);
+    }
+
+    .hero__paw::before {
+      content: "✦";
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      color: var(--accent);
+      font-size: 76px;
+    }
+
+    .hero__stamp {
+      position: absolute;
+      right: 0;
+      bottom: 18px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      background: rgba(17, 17, 15, 0.8);
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      line-height: 1.5;
+      text-transform: uppercase;
+      backdrop-filter: blur(8px);
+    }
+
+    .hero__footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      margin-top: 64px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 10px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .hero__footer strong {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    @media (min-width: 768px) {
+      .hero {
+        padding: 44px 48px;
+      }
+
+      .hero__main {
+        grid-template-columns: 1.05fr 0.95fr;
+        align-items: center;
+        gap: 40px;
+        padding-top: 80px;
+      }
+
+      .hero__visual {
+        min-height: 520px;
+      }
+
+      .hero__footer {
+        margin-top: 72px;
+      }
+    }
+
+    @media (min-width: 1100px) {
+      .hero {
+        padding: 48px 72px;
+      }
+
+      .hero__main {
+        min-height: calc(100vh - 180px);
+        padding-top: 40px;
+      }
+
+      .hero__description {
+        font-size: 15px;
+      }
+
+      .hero__orb {
+        width: 500px;
+      }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .hero__content > * {
+        opacity: 0;
+        transform: translateY(18px);
+        animation: reveal 700ms cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+      }
+
+      .hero__label {
+        animation-delay: 80ms;
+      }
+
+      .hero__title {
+        animation-delay: 180ms;
+      }
+
+      .hero__description {
+        animation-delay: 280ms;
+      }
+
+      .hero__actions {
+        animation-delay: 380ms;
+      }
+
+      .hero__visual {
+        opacity: 0;
+        transform: scale(0.96);
+        animation: visual-reveal 900ms 180ms cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+      }
+
+      @keyframes reveal {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes visual-reveal {
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="hero">
+    <div class="hero__container">
+      <header class="hero__top">
+        <p class="hero__brand">RAW</p>
+        <p class="hero__category">Food for animals / 2026</p>
+      </header>
+
+      <div class="hero__main">
+        <section class="hero__content">
+          <p class="hero__label">Натуральний раціон</p>
+
+          <h1 class="hero__title">
+            Годуй
+            <span>справжнє.</span>
+          </h1>
+
+          <p class="hero__description">
+            Корм для собак і котів без зайвого шуму:
+            якісні інгредієнти, зрозумілий склад і смак,
+            заради якого миска спорожнюється до останньої крихти.
+          </p>
+
+          <div class="hero__actions">
+            <a class="hero__button" href="#products">
+              Переглянути корм
+            </a>
+
+            <a class="hero__button hero__button--secondary" href="#story">
+              Наша філософія
+            </a>
+          </div>
+        </section>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__orb">
+            <div class="hero__paw"></div>
+          </div>
+
+          <div class="hero__stamp">
+            Protein / Clean recipe<br>
+            No unnecessary fillers
+          </div>
+        </div>
+      </div>
+
+      <footer class="hero__footer">
+        <span>Made with <strong>real ingredients</strong></span>
+        <span>For dogs + cats</span>
+      </footer>
+    </div>
+  </main>
+</body>
+</html>
