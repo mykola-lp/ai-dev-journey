@@ -26,6 +26,15 @@ This repo tracks what I'm learning about AI-assisted development: how to prompt 
 | [Free Claude Code course!](https://master.dev/courses/claude-code/) | Master.dev (same course, mirrored) | 📌 Planned |
 | [Claude Code для веб-розробки — Повний інтерактивний курс (UA)](https://claude-code-webdev-course.pages.dev/) | FRACTAL (Ukrainian, web-dev focused) | 📌 Planned |
 
+### 🎨 Frontend Design
+
+- [Frontend Design Skill](https://github.com/anthropics/claude-code/blob/main/plugins/frontend-design/skills/frontend-design/SKILL.md) — guidance for AI agents to build distinctive, intentional interfaces rather than generic AI-styled layouts.
+- [Prompting for Frontend Aesthetics](https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb) — an Anthropic notebook on prompting for higher-quality frontend visual design.
+
+### 🧩 Agent Skills
+
+- [Skills: pick up a repo's `.claude/skills` automatically](https://platform.claude.com/cookbook/managed-agents-cma-use-skills-from-a-repo) — an Anthropic Cookbook showing how Claude Managed Agents discover and follow versioned skills from a mounted GitHub repository.
+
 ## 📁 Structure
 
 ```
