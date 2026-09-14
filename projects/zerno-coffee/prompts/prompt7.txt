@@ -1,0 +1,19 @@
+<!-- Обов'язкові meta-теги -->
+<title>Зерно -- Крафтова кав'ярня у Львові</title>
+<meta name="description" content="Крафтова кава...">
+
+<!-- Open Graph (для соцмереж) -->
+<meta property="og:title" content="Зерно">
+<meta property="og:description" content="...">
+<meta property="og:image" content="https://...">
+<meta property="og:url" content="https://zerno.coffee">
+
+<!-- Schema.org (для Google) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Зерно",
+  "address": {...}
+}
+</script>Copied!

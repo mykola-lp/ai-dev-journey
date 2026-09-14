@@ -1,0 +1,5 @@
+# Промпт для оптимізації:
+Запусти Lighthouse аудит мого сайту.
+Покращи Performance до 90+ (оптимізуй зображення, мінімізуй CSS).
+Покращ Accessibility до 100 (alt тексти, контраст, aria-labels).
+Покращ SEO до 100 (meta tags, OpenGraph, schema.org).
