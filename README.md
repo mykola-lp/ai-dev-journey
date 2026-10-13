@@ -26,6 +26,10 @@ This repo tracks what I'm learning about AI-assisted development: how to prompt 
 | [Free Claude Code course!](https://master.dev/courses/claude-code/) | Master.dev (same course, mirrored) | 📌 Planned |
 | [Claude Code для веб-розробки — Повний інтерактивний курс (UA)](https://claude-code-webdev-course.pages.dev/) | FRACTAL (Ukrainian, web-dev focused) | 📌 Planned |
 
+### Brainstorming
+
+- [New ideas](https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md)
+
 ### 🎨 Frontend Design
 
 - [Frontend Design Skill](https://github.com/anthropics/claude-code/blob/main/plugins/frontend-design/skills/frontend-design/SKILL.md) — guidance for AI agents to build distinctive, intentional interfaces rather than generic AI-styled layouts.
