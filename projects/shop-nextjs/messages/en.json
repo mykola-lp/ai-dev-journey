@@ -1,0 +1,57 @@
+{
+  "common": {
+    "siteName": "Field & Form",
+    "tagline": "Home goods, arranged your way"
+  },
+  "nav": {
+    "home": "Shop",
+    "cart": "Cart"
+  },
+  "home": {
+    "heroTitle": "Furniture and objects for a calmer room",
+    "heroSubtitle": "Browse the catalogue, switch how it's laid out, and drag pieces into the order that makes sense to you.",
+    "resultsCount": "{count, plural, =0 {No pieces found} one {# piece} other {# pieces}}",
+    "loading": "Loading the catalogue…",
+    "empty": "Nothing matches these filters yet. Try clearing them.",
+    "dragHint": "Drag any card by its handle to reorder the catalogue."
+  },
+  "filters": {
+    "categoryLabel": "Category",
+    "allCategories": "All categories",
+    "priceLabel": "Max price",
+    "reset": "Reset filters"
+  },
+  "view": {
+    "switcherLabel": "Layout",
+    "grid4": "Grid",
+    "grid2": "Large grid",
+    "list": "List"
+  },
+  "product": {
+    "addToCart": "Add to cart",
+    "added": "Added",
+    "price": "Price",
+    "category": "Category",
+    "quantity": "Quantity",
+    "back": "Back to shop",
+    "notFound": "We couldn't find that piece.",
+    "notFoundCta": "Return to the catalogue",
+    "description": "Description"
+  },
+  "cart": {
+    "title": "Your cart",
+    "empty": "Your cart is empty.",
+    "emptyCta": "Go find something",
+    "remove": "Remove",
+    "quantity": "Qty",
+    "itemCount": "{count, plural, =0 {No items} one {# item} other {# items}}",
+    "subtotal": "Subtotal",
+    "checkout": "Checkout",
+    "checkoutNote": "This is a local test build, so checkout is a placeholder — it doesn't contact any real payment service.",
+    "checkoutDone": "Demo checkout complete. The cart has been cleared.",
+    "unitPrice": "Unit price"
+  },
+  "language": {
+    "label": "Language"
+  }
+}

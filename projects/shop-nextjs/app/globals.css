@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background-color: #f7f4ec;
+  color: #211d18;
+}
+
+/* Keyboard users get a visible focus ring everywhere, including on the
+   drag handles and swatch links, which don't get one "for free" from
+   Tailwind's reset. */
+:focus-visible {
+  outline: 2px solid #2f5233;
+  outline-offset: 2px;
+}

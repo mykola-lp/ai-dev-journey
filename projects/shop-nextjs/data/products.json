@@ -1,0 +1,158 @@
+[
+  {
+    "id": "1",
+    "name": { "uk": "Крісло «Тінь»", "en": "Shadow Lounge Chair" },
+    "description": {
+      "uk": "Низьке крісло з вигнутою спинкою та товстою обшивкою з вовняної тканини. Дерев'яні ніжки з термообробленого ясена.",
+      "en": "A low-slung lounge chair with a curved back and a heavy wool-blend upholstery. Legs are heat-treated ash."
+    },
+    "category": { "uk": "Крісла", "en": "Chairs" },
+    "categoryKey": "chairs",
+    "price": 389,
+    "accentColor": "#2F5233",
+    "icon": "chair"
+  },
+  {
+    "id": "2",
+    "name": { "uk": "Стілець «Річка»", "en": "River Dining Chair" },
+    "description": {
+      "uk": "Обідній стілець з литим сидінням та тонкими металевими ніжками. Витримує до 130 кг.",
+      "en": "A dining chair with a moulded seat shell and slim powder-coated legs. Rated for up to 130 kg."
+    },
+    "category": { "uk": "Крісла", "en": "Chairs" },
+    "categoryKey": "chairs",
+    "price": 149,
+    "accentColor": "#7A7267",
+    "icon": "chair"
+  },
+  {
+    "id": "3",
+    "name": { "uk": "Стіл «Береги»", "en": "Coastline Dining Table" },
+    "description": {
+      "uk": "Обідній стіл на шість осіб зі стільниці масиву дуба та сталевою прихованою рамою.",
+      "en": "A six-seat dining table with a solid oak top and a concealed steel frame."
+    },
+    "category": { "uk": "Столи", "en": "Tables" },
+    "categoryKey": "tables",
+    "price": 720,
+    "accentColor": "#A8492F",
+    "icon": "table"
+  },
+  {
+    "id": "4",
+    "name": { "uk": "Журнальний столик «Дюна»", "en": "Dune Coffee Table" },
+    "description": {
+      "uk": "Овальний журнальний столик з литого бетону, з м'яко скругленими краями.",
+      "en": "An oval coffee table cast from concrete with softly rounded edges."
+    },
+    "category": { "uk": "Столи", "en": "Tables" },
+    "categoryKey": "tables",
+    "price": 265,
+    "accentColor": "#E5DFD2",
+    "icon": "table"
+  },
+  {
+    "id": "5",
+    "name": { "uk": "Підлогова лампа «Маяк»", "en": "Lighthouse Floor Lamp" },
+    "description": {
+      "uk": "Регульована підлогова лампа з тканинним абажуром і важкою мармуровою основою.",
+      "en": "An adjustable floor lamp with a fabric shade and a heavy marble base."
+    },
+    "category": { "uk": "Освітлення", "en": "Lighting" },
+    "categoryKey": "lighting",
+    "price": 175,
+    "accentColor": "#211D18",
+    "icon": "lamp"
+  },
+  {
+    "id": "6",
+    "name": { "uk": "Настільна лампа «Іскра»", "en": "Spark Table Lamp" },
+    "description": {
+      "uk": "Компактна настільна лампа з матовим скляним плафоном, три рівні яскравості.",
+      "en": "A compact table lamp with a frosted glass shade and three brightness levels."
+    },
+    "category": { "uk": "Освітлення", "en": "Lighting" },
+    "categoryKey": "lighting",
+    "price": 68,
+    "accentColor": "#3F6B45",
+    "icon": "lamp"
+  },
+  {
+    "id": "7",
+    "name": { "uk": "Плед «Овес»", "en": "Oat Throw Blanket" },
+    "description": {
+      "uk": "Плед з ткацькою фактурою з бавовни та льону, 130×180 см.",
+      "en": "A woven-texture throw in a cotton-linen blend, 130×180 cm."
+    },
+    "category": { "uk": "Текстиль", "en": "Textiles" },
+    "categoryKey": "textiles",
+    "price": 54,
+    "accentColor": "#E5DFD2",
+    "icon": "textile"
+  },
+  {
+    "id": "8",
+    "name": { "uk": "Килим «Пшениця»", "en": "Wheatfield Rug" },
+    "description": {
+      "uk": "Килим ручного ткання з природних волокон джуту, 200×300 см.",
+      "en": "A hand-woven rug in natural jute fibre, 200×300 cm."
+    },
+    "category": { "uk": "Текстиль", "en": "Textiles" },
+    "categoryKey": "textiles",
+    "price": 210,
+    "accentColor": "#A8492F",
+    "icon": "textile"
+  },
+  {
+    "id": "9",
+    "name": { "uk": "Комод «Гавань»", "en": "Harbor Sideboard" },
+    "description": {
+      "uk": "Комод із трьома шухлядами та двома дверцятами, шпон горіха.",
+      "en": "A three-drawer, two-door sideboard finished in walnut veneer."
+    },
+    "category": { "uk": "Зберігання", "en": "Storage" },
+    "categoryKey": "storage",
+    "price": 540,
+    "accentColor": "#1F3A23",
+    "icon": "storage"
+  },
+  {
+    "id": "10",
+    "name": { "uk": "Стелаж «Драбина»", "en": "Ladder Shelf" },
+    "description": {
+      "uk": "П'ятиярусний відкритий стелаж, спирається на стіну під кутом.",
+      "en": "A five-tier open shelving unit that leans against the wall."
+    },
+    "category": { "uk": "Зберігання", "en": "Storage" },
+    "categoryKey": "storage",
+    "price": 165,
+    "accentColor": "#7A7267",
+    "icon": "storage"
+  },
+  {
+    "id": "11",
+    "name": { "uk": "Ваза «Дощ»", "en": "Rainfall Vase" },
+    "description": {
+      "uk": "Керамічна ваза ручної роботи з нерівномірною глазур'ю.",
+      "en": "A hand-thrown ceramic vase with an uneven reactive glaze."
+    },
+    "category": { "uk": "Декор", "en": "Decor" },
+    "categoryKey": "decor",
+    "price": 42,
+    "accentColor": "#2F5233",
+    "icon": "decor"
+  },
+  {
+    "id": "12",
+    "name": { "uk": "Дзеркало «Затока»", "en": "Bay Mirror" },
+    "description": {
+      "uk": "Настінне дзеркало неправильної форми в тонкій латунній рамі.",
+      "en": "An irregularly shaped wall mirror in a slim brass frame."
+    },
+    "category": { "uk": "Декор", "en": "Decor" },
+    "categoryKey": "decor",
+    "price": 128,
+    "accentColor": "#A8492F",
+    "icon": "decor"
+  }
+]
