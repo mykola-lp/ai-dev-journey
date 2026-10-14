@@ -1,59 +1,98 @@
 # AI Dev Journey
 
-My personal journey into AI: learning how to work effectively with coding tools (Claude Code, Codex, and similar) — courses, notes, and hands-on practice.
+Personal journey into AI-assisted development: learning to work effectively with coding tools such as Claude Code and Codex.
 
 ## About
 
-This repo tracks what I'm learning about AI-assisted development: how to prompt effectively, configure and delegate tasks to coding agents, and integrate them into a real full-stack workflow (React, Node.js, TypeScript, databases, etc.). 
+This repository tracks my learning journey in AI-assisted software development.
 
-## 📚 Courses & Resources
+I'm exploring how to:
+- write effective prompts and provide context to AI agents.
+- configure and delegate tasks to coding agents.
+- use agent skills, hooks, and custom workflows.
+- integrate AI tools into full-stack development.
+- build, test, and deploy applications using React, Node.js, TypeScript, and databases.
 
-### 🤖 ChatGPT / Codex
+## Courses & Learning Resources
 
-| Course | Provider | Status |
-|---|---|---|
-| [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/courses/chatgpt-prompt-eng) | DeepLearning.AI (w/ OpenAI) | ✅ Completed |
-| [Від початківця до експерта в ШІ](https://vid-pochatkivcya-do-eksperta-v-ai-study.academyocean.com/) | AcademyOcean | 🔄 In progress |
+| Course | Provider |
+|---|---|
+| [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/courses/chatgpt-prompt-eng) | DeepLearning.AI — Prompt engineering for LLM applications |
+| [Від початківця до експерта в ШІ](https://vid-pochatkivcya-do-eksperta-v-ai-study.academyocean.com/) | AcademyOcean — Ukrainian AI learning course |
+| [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) | Anthropic Academy — Practical Claude Code workflows |
+| [Claude Code Course](https://frontendmasters.com/courses/claude-code/) | Frontend Masters — AI-assisted coding with Claude Code |
+| [Claude Code Course](https://master.dev/courses/claude-code/) | Master.dev — Claude Code development course |
+| [Claude Code для веб-розробки — Повний інтерактивний курс (UA)](https://claude-code-webdev-course.pages.dev/) | FRACTAL — Claude Code for web development |
+| [AI Dev Tools Zoomcamp](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp) | DataTalks.Club — AI-assisted development; [coursework](https://github.com/mykola-lp/ai-dev-tools-zoomcamp) |
 
-*(general AI/prompting fundamentals — not Codex-specific, but foundational)*
-
-### 🟣 Claude / Claude Code
-
-| Course | Provider | Status |
-|---|---|---|
-| [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) | Anthropic Academy (official) | 📌 Planned |
-| [Free Claude Code course!](https://frontendmasters.com/courses/claude-code/) | Frontend Masters (taught by Lydia Hallie, Anthropic) | 📌 Planned |
-| [Free Claude Code course!](https://master.dev/courses/claude-code/) | Master.dev (same course, mirrored) | 📌 Planned |
-| [Claude Code для веб-розробки — Повний інтерактивний курс (UA)](https://claude-code-webdev-course.pages.dev/) | FRACTAL (Ukrainian, web-dev focused) | 📌 Planned |
+## AI Agent Skills & Workflows
 
 ### Brainstorming
 
-- [New ideas](https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md)
+- [Brainstorming Skill](https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md)
+  — Clarifies requirements before implementation.
 
-### 🎨 Frontend Design
+- [Spec-Driven Planning](https://github.com/Lozovoi-Rodion/Claude-Skills/blob/main/dev/spec-driven-planning.md)
+  — Converts specifications into ClickUp development tasks.
 
-- [Frontend Design Skill](https://github.com/anthropics/claude-code/blob/main/plugins/frontend-design/skills/frontend-design/SKILL.md) — guidance for AI agents to build distinctive, intentional interfaces rather than generic AI-styled layouts.
-- [Prompting for Frontend Aesthetics](https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb) — an Anthropic notebook on prompting for higher-quality frontend visual design.
+### Frontend Design
 
-### 🧩 Agent Skills
+- [Frontend Design Skill](https://github.com/anthropics/claude-code/blob/main/plugins/frontend-design/skills/frontend-design/SKILL.md)
+  — Creates distinctive, production-ready frontend interfaces.
 
-- [Skills: pick up a repo's `.claude/skills` automatically](https://platform.claude.com/cookbook/managed-agents-cma-use-skills-from-a-repo) — an Anthropic Cookbook showing how Claude Managed Agents discover and follow versioned skills from a mounted GitHub repository.
+- [Prompting for Frontend Aesthetics](https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb)
+  — Improves frontend design through better prompts.
 
-## 📁 Structure
+### Agent Skills & Integration
 
-```
-ai-dev-journey/
-└── notes/        # Notes and takeaways from each course, organized by course/topic
-```
+- [Using Repository Skills](https://platform.claude.com/cookbook/managed-agents-cma-use-skills-from-a-repo)
+  — Loads repository-based skills into managed agents.
 
-More folders (e.g. for CLAUDE.md configs, prompts, and workflow experiments on full-stack projects) will be added as I progress.
+### Token Optimization
 
-## 🎯 Goals
+- [Caveman](https://github.com/juliusbrussee/caveman)
+  — Reduces token usage in AI coding workflows.
 
-- Learn to use AI coding agents (Claude Code, Codex) efficiently in a full-stack JS/TS workflow
-- Build practical skills: effective prompting, project context setup (e.g. CLAUDE.md), custom skills/hooks, agentic workflows
-- Apply these tools to real projects (React, Node.js/Express, TypeScript, databases, Docker)
-- Keep a record of progress and resources worth revisiting
+## AI Tools & Platforms
+
+- [Relume](https://www.relume.ai/)
+  — Generates website sitemaps and wireframes.
+
+- [Leonardo AI](https://leonardo.ai/)
+  — Generates and edits AI images and graphics.
+
+- [Lovable](https://lovable.dev/)
+  — Builds web applications from natural-language prompts.
+
+- [Replit](https://replit.com/)
+  — Develops, runs, and deploys applications online.
+
+- [Context7](https://context7.com/)
+  — Provides current library documentation to AI coding agents.
+
+- [Hugging Face](https://huggingface.co/)
+  — Explores and shares AI models and datasets.
+
+- [Artificial Analysis — Model Leaderboard](https://artificialanalysis.ai/leaderboards/models)
+  — Compares AI models by intelligence, speed, and cost.
+
+### Utilities
+
+- [OpenAI Tokenizer](https://platform.openai.com/tokenizer)
+  — Inspects tokenization and counts tokens in text.
+
+## YouTube
+
+### [Rodion Lozovoi](https://www.youtube.com/@ro_dionys)
+
+- [Claude Code: Створення вебзастосунку з нуля](https://www.youtube.com/watch?v=zW4SEqgFBJc)
+  — Створення повноцінного вебзастосунку без написання коду вручну.
+
+- [Agent Skills: Від простого скіла до командного інструмента](https://www.youtube.com/watch?v=3t7VVZp2si8)
+  — Розробка, тестування та поширення надійних AI-скілів.
+
+- [ClickUp: Процеси, управління командами та AI](https://www.youtube.com/watch?v=vthIGGn3kZo)
+  — Організація бізнес-процесів і застосування AI в командах.
 
 ---
 
